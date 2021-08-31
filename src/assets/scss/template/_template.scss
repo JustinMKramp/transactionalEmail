@@ -5,35 +5,75 @@
 body,
 html, 
 .body {
-  background: #f3f3f3 !important;
+  background: #665b5b !important;
 }
 
-.container.header {
-  background: #f3f3f3;
-}
-
-.body-drip {
-  border-top: 8px solid #663399;
-}
-
-// Full Width Headers
-.header {
-  background: #8a8a8a;
-}
-
-.header .columns {
-  padding-bottom: 0;
-}
-
-.header p {
-  color: #fff;
-  padding-top: 15px;
-}
-
-.header .wrapper-inner {
-  padding: 20px;
-}
-
-.header .container {
-  background: transparent;
+.footer{
+  & > tbody {
+  background-color: #1a1a1a;
+  background: #1a1a1a;
+  }
+  .menu-divider {
+    & > tbody >tr {
+    display: block;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #616161;
+    background: #616161;
+    }
+  }
+  .link_btn {
+  display: block;
+  font-weight: 600;
+  width: 100%;
+  height: 10px;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: center;
+  color: #f4f4f4 !important;
+  }
+  .social_tab{
+    padding-top: 15px;
+  }
+  .social_btn {
+    width: 30px;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .dividends_btn{
+  display: block;
+  font-weight: 600;
+  width: 100%;
+  height: 10px;
+  font-size: 14px;
+  padding-bottom: 12px;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-align: center;
+  color: #f4f4f4 !important;
+  }
+  .percent_btn{
+    display: block;
+    font-weight: 600;
+    width: 50%;
+    height: 30px;
+    font-size: 30px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: #f4f4f4 !important;
+    }
+  .benefits_btn{
+    display: block;
+    font-weight: 600;
+    width: 25%;
+    height: 10px;
+    font-size: 18px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: #f4f4f4 !important;
+    }
 }
