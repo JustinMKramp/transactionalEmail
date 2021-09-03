@@ -3,85 +3,133 @@ layout: default
 subject: Order Confirmation
 ---
 
-<container>
+<container style="border: solid #b8b8b8 1px;">
 
-    <spacer size="16"></spacer>
-  
+  <center>
     <row>
       <columns>
-        <h1 style="text-align: center;">Thanks for your order, Justin.</h1>
+        <h1 style="text-align: center; hyphens: none;">Thanks for your order, Justin.</h1>
         <p style="text-align: center;">Order Number: <a href="#">#A4582232</a></p>
-        <p style="text-align: center;">Order Total: <strong>$20</strong></p>  
-        <spacer size="16"></spacer>
-        
-        
-            <row><columns class="delivery">
-            <p>Digital delivery</p></columns></row>
-        
-        <callout class="secondary">
-          <row>
-            <columns large="6">
-              <p>
-                <strong>Payment Method</strong><br/>
-                Dubloons
-              </p>
-              <p>
-                <strong>Email Address</strong><br/>
-                thecapn@pirates.org
-              </p>
-              <p>
-                <strong>Order ID</strong><br/>
-                239235983749636
-              </p>
-            </columns>
-            <columns large="6">
-              <p>
-                <strong>Shipping Method</strong><br/>
-                Boat (1&ndash;2 weeks)<br/>
-                <strong>Shipping Address</strong><br/>
-                Captain Price<br/>
-                123 Maple Rd<br/>
-                Campbell, CA 95112
-              </p>
-            </columns>
-          </row>
-        </callout>
-  
-        <h4>Order Details</h4>
-  
-        <table>
-          <tr><th>Item</th><th>#</th><th>Price</th></tr>
-          <tr><td>Ship's Cannon</td><td>2</td><td>$100</td></tr>
-          <tr><td>Ship's Cannon</td><td>2</td><td>$100</td></tr>
-          <tr><td>Ship's Cannon</td><td>2</td><td>$100</td></tr>
-          <tr>
-            <td colspan="2"><b>Subtotal:</b></td>
-            <td>$600</td>
-          </tr>
-        </table>
-  
-        <hr/>
-  
-        <h4>What's Next?</h4>
-  
-        <p>Our carrier raven will prepare your order for delivery. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi necessitatibus itaque debitis laudantium doloribus quasi nostrum distinctio suscipit, magni soluta eius animi voluptatem qui velit eligendi quam praesentium provident culpa?</p>
+        <p style="text-align: center;">Order Total: <strong>$20</strong></p>
       </columns>
     </row>
-    <row class="text-center">
-      <columns large="3">
-        <img src="http://placehold.it/170x30" alt="">
-      </columns>
-      <columns large="3">
-        <p>
-          Call us at 800.555.1923<br/>
-          Email us at support@discount.boat
-        </p>
-      </columns>
-      <columns large="3">
-        <p>
-          123 Maple Rd<br/>
-          Campbell, CA 95112
-        </p>
-      </columns>
-    </row>
-  </container>
+  </center>
+  <row>
+    <columns small="2" large="1"></columns>
+    <columns small="8" large="8" class="delivery">
+      <p>Digital delivery</p>
+    </columns>
+    <columns small="1" large="1"></columns>
+  </row>
+  <br>
+  <row>
+    <columns small="2" large="1"></columns>
+    <columns class="schedule" small="8" large="11">
+      <p>Schedule delivery <strong>TODAY</strong></p>
+    </columns>
+    <columns small="1" large="1"></columns>
+  </row>
+  <br>
+  <row>
+    <columns small="1" large="1"></columns>
+    <columns small="2" large="2"><img src="{{root}}/assets/img/REICoopLogo.png"></columns>
+    <columns small="6" large="6" class="order_num">
+      <p><strong>REI Membership</strong><br> Item #8375930237
+      </p>
+    </columns>
+    <columns small="1" large="1"></columns>
+  </row>
+  <br>
+  <row class="order_total">
+    <columns>
+      <h6 style="padding-left: 5px; display: inline;">Qty: 1</h6>
+      <h6 style="padding-left: 40px; display: inline;">Co-op Membership</h6>
+      <h6 style=" padding-left: 200px; display: inline;"><strong>$20.00</strong></h6>
+    </columns>
+  </row>
+  <row>
+    <columns class="thanks">
+      <center>
+        <p><img style="width: 21px; display: inline;" src="{{root}}/assets/img/unnamed.png"> Thanks for joining the
+          co-op! You will receive an email shortly with
+          your new membership number, which is
+          active immediately. If you don’t receive your new membership number within 60 minutes after receiving this
+          email, you can look it up on our <a href="https://www.rei.com/membership/lookup">membership support
+            page</a>.
+          Learn more about your <a href="https://www.rei.com/membership/benefits"> membership benefits</a> and add
+          your membership card to your <a href="#"> Apple Wallet</a>.</p>
+      </center>
+    </columns>
+  </row><br>
+  <row>
+    <columns class="delivering_to">
+      <h6><strong>Delivering to:</strong></h6>
+      <h6><a href="#">justinkramp.dev@gmail.com</a></h6>
+    </columns>
+
+
+  </row><br>
+  <row>
+    <columns small="1" large="1"></columns>
+    <columns small="8" large="8" class="delivery">
+      <p>Payment Details</p>
+    </columns>
+    <columns small="1" large="1"></columns>
+  </row><br>
+  <row>
+    <columns small="1" large="1"></columns>
+    <columns class="payment_details">
+      <row>
+        <columns>
+          <h6><strong>Order Placed:</strong></h6>
+        </columns>
+        <columns>
+          <h6 class="text-center">08/28/2021</h6>
+        </columns><br>
+      </row>
+      <row>
+        <h6><strong>Billing Address:</strong></h6>
+        <h6>Justin Kramp<br>123 FAKE ST<br>FINDLAY,OH 45840</h6><br>
+      </row>
+      <h6><strong>Payment method:</strong></h6>
+      <h6>MasterCard (ending in 6789)</h6>
+      <row>
+        <columns class="page_splitter"></columns>
+      </row><br>
+      <h6><strong>Order summary</strong></h6><br>
+      <row>
+        <columns>
+          <h6><strong>Subtotal</strong></h6>
+        </columns>
+        <columns>
+          <h6 class="text-right"><strong>$20.00</strong></h6>
+        </columns>
+      </row>
+      <row>
+        <columns>
+          <h6>Standard Shipping</h6>
+        </columns>
+        <columns>
+          <h6 class="text-right">FREE</h6>
+        </columns>
+      </row>
+      <row>
+        <columns>
+          <h6>Estimated sales tax:</h6>
+        </columns>
+        <columns>
+          <h6 class="text-right">$0.00</h6>
+        </columns>
+      </row><br>
+      <row>
+        <columns>
+          <h6><strong>Order total:</strong></h6>
+        </columns>
+        <columns>
+          <h6 class="text-right"><strong>$20.00</strong></h6>
+        </columns>
+      </row>
+    </columns>
+    <columns small="1" large="1"></columns>
+  </row>
+</container>
