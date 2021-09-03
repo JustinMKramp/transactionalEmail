@@ -139,7 +139,7 @@ html,
 }
 
 .footer{
-  width: 76% !important;
+  max-width: 580px;
   & > tbody {
   background-color: #1a1a1a;
   background: #1a1a1a;
@@ -209,6 +209,7 @@ html,
     }
 }
 .lifetime{
+  max-width: 580px !important;
   padding-top: 25px;
   background-color: #f1efe4;
   background: #f1efe4;
