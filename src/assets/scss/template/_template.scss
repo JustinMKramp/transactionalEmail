@@ -8,6 +8,7 @@ html,
   background: #ffffff !important;
 }
 .header{
+  width: 75% !important;
   max-width: 548px;
   display: block;
   background-color: #1a1a1a;
@@ -92,7 +93,53 @@ html,
   }
 }
 
+.full_order {
+  background-color: #eeeeee;
+  background: #eeeeee;
+  padding-bottom: 15px !important;
+  padding-top: 20px;
+
+  span {
+    font-family: sans-serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 160px;
+    background-color: #266557;
+    font-size: 16px;
+    color: #ffffff !important;
+    hyphens: none;
+  }
+}
+
+.rate_email
+{
+  background-color: #f4f4f4;
+  background: #f4f4f4;
+  border: #b8b8b8 solid 1px;
+  border-radius: 5px !important;
+  .favor{
+    font-size: 10px;
+
+  }
+
+  a{
+    span{
+      color: #ffffff;
+      background-color: #1a1a1a;
+      background: #1a1a1a;
+      font-size: 14px;
+      font-family: 'Sans Serif', sans-serif;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      padding-left: 8px;
+      padding-right: 8px;
+      width: 160px;
+    }
+  }
+}
+
 .footer{
+  width: 76% !important;
   & > tbody {
   background-color: #1a1a1a;
   background: #1a1a1a;
@@ -160,4 +207,9 @@ html,
     text-align: center;
     color: #f4f4f4 !important;
     }
+}
+.lifetime{
+  padding-top: 25px;
+  background-color: #f1efe4;
+  background: #f1efe4;
 }
