@@ -155,6 +155,20 @@ th.large-8 {
 th.large-8 center {
   min-width: 338.66667px; }
 
+th.large-9 {
+  width: 419px;
+  padding-left: 8px;
+  padding-right: 8px; }
+
+th.large-9.first {
+  padding-left: 16px; }
+
+th.large-9.last {
+  padding-right: 16px; }
+
+th.large-9 center {
+  min-width: 387px; }
+
 th.large-10 {
   width: 467.33333px;
   padding-left: 8px;
@@ -368,7 +382,7 @@ html,
   background: #ffffff !important; }
 
 .header {
-  width: 75% !important;
+  width: 100% !important;
   max-width: 548px;
   display: block;
   background-color: #1a1a1a;
